@@ -1,0 +1,11 @@
+#+TITLE: Data Structures
+
+Drawings and implementations of basic data structures
+
+- Stack
+- Queue
+- LinkedList
+- Double LinkedList
+- Circle LinkedList
+
+[[./assets/map.png]]
