@@ -21,5 +21,7 @@ int main(){
   /*printf("Popping: %0.2f\n", stack_pop(pacients));*/
   printf("Peeking after popping: %0.2f\n", stack_peek(pacients));
 
+  stack_destroyer(pacients);
+
   return 0;
 }

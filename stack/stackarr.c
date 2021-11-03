@@ -23,8 +23,7 @@ void stack_destroyer(Stack* this) {
 }
 
 void stack_push(Stack* this, double value) {
-  
-  assert( stack_is_full(this) != TRUE ) ;
+  assert( stack_is_full(this) != TRUE ); //Error
   this->stack[this->top] = value;
   ++this->top;
 }
@@ -36,7 +35,7 @@ double stack_pop(Stack* this) {
 }
 
 bool stack_is_full(Stack* this) {
-  return this->top == this->max;
+  return this->top >= this->max;
 }
 
 bool stack_is_empty(Stack* this) {
