@@ -46,7 +46,7 @@ void linked_list_destroyer(LinkedList* this) {
     }
   }
 
-  if(this) free(this);
+  free(this);
 }
 
 
